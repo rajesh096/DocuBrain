@@ -3,4 +3,3 @@ nltk
 sentence-transformers
 faiss-cpu
 openai
-tkinter
