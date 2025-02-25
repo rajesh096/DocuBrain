@@ -2,7 +2,7 @@ import openai
 import base64
 
 # Initialize OpenAI client
-client = openai.OpenAI(api_key="You_API_key")
+client = openai.OpenAI(api_key="YOUR_API_KEY")
 
 # Function to encode image to base64
 def encode_image(image_path):
@@ -10,7 +10,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode("utf-8")
 
 # Image path
-image_path = r"E:\Project\DocuBrain\Invoice_samples\invoice5.jpg"
+image_path = r"E:\Project\DocuBrain\Employee_Entry\Employee_proof_samples\resume for retail supervisor.png"
 base64_image = encode_image(image_path)
 
 # OpenAI API request
