@@ -1,0 +1,8 @@
+openai
+psycopg2
+python-dotenv
+base64
+pillow
+datetime
+json
+re
